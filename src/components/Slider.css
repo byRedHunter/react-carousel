@@ -13,6 +13,7 @@
 	text-transform: uppercase;
 	padding: 0 4rem;
 	z-index: 100;
+	text-shadow: 0 0 0.5rem rgb(9, 9, 34);
 }
 .slider__content,
 .slider__content--item {
@@ -29,12 +30,11 @@
 
 .slider-description {
 	position: absolute;
-	z-index: 500;
 	bottom: 5rem;
 	width: 100%;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 2.5rem;
 	font-weight: bold;
-	text-shadow: 0 0 1rem #f55;
-	padding: 0 4rem;
+	padding: 1rem 4rem;
+	background-color: rgba(255, 85, 85, 0.5);
 }
